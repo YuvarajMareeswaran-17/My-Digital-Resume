@@ -1,0 +1,184 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#Hbar
+{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Hname
+{
+    height: 80px;
+    width: 250px;
+    cursor: pointer;
+    /* border: 2px solid greenyellow; */
+    margin: 0 auto;
+    display: flex;
+    transition: ease-in-out 2s;
+}
+
+#Hname h5
+{
+    padding-top: 25px;
+    padding-left: 0px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+}
+
+#Hname :hover
+{
+    transform: scale(1.1);
+    color: #00ff59;
+}
+
+#Hlist
+{
+    width: 500px;
+    height: 80px;
+    border: 2px solid black;
+}
+
+#Hlist
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    padding-top: 22.5px;
+    padding-left: 5px;
+    color: white;
+    display: flex;
+    transition: ease-in 2s;
+}
+
+#Hbarlist li a
+{
+    text-decoration: none;
+    font-size: 95%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#Hkeymbol
+{
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#HbarList li
+{
+    color: #ffffff;
+}
+
+Hbarlist :hover
+{
+    transform: scale(1.1);
+    color: #e5ff00;
+}
+
+#h2
+{
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    background-image: url(https://previews.123rf.com/images/adiruch/adiruch1604/adiruch160402889/55673555-hobbies-auf-wei%C3%9Fem-hintergrund.jpg);
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-right: 32px;
+}
+
+#h2 li
+{
+    font-size: 15px;
+}
+
+/* #p2
+{
+    padding-top: 30px;
+    padding-left: 35px; 
+    padding-right: 10px;
+}
+
+#p2 li
+{
+    font-size: 15px;
+}
+
+#p3
+{
+    padding-top: 30px;
+    padding-left: 35px; 
+    padding-right: 10px;
+}
+
+#p3 li
+{
+    font-size: 15px;
+} */
+
+#cofooter
+{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cofootlist
+{
+    width: 1200px;
+    height: 80px;
+    /* border: 2px solid black; */
+}
+
+#cofootbarlist
+{
+    list-style: none;
+    cursor: pointer;
+    padding-top: 22.5px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    transition: ease-in 2s;
+}
+
+#cofootbarlist i
+{
+    font-size: large;
+    padding-top: 4px;
+}
+
+#cofootbarlist a li
+{
+    text-decoration:none;
+    font-size:110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#cofootbarList a li
+{
+    color: #ffffff;
+}
+
+#cofootbarlist :hover
+{
+    transform: scale(1.1);
+    color: #e5ff00;
+}
